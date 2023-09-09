@@ -3,7 +3,7 @@ This repository is created for the "Borla2Earn" Decentralized application (DApp)
 
 ## Problem
 
-Ghana has an issue with waste management and its disposal. The sad thing about this is, even the capital of the country is also affected by this problem.
+Ghana has an issue with waste management and its disposal. The sad thing about this is, that even the capital of the country is also affected by this problem.
 
 ## What We Do
 Harnessing blockchain's power, we've designed a dynamic solution that incentivizes responsible waste disposal. By simply bringing your bottles, plastics, and more to us, you're not only contributing to a cleaner environment but also earning valuable tokens in return.
@@ -20,7 +20,7 @@ We're putting the power of rewards back in your hands. Unlike traditional waste 
 
 ## How To Sign Up
 1. Register your account on the web app
-2. Contribute your wastes (plastics, bottles etc)
+2. Contribute your waste (plastics, bottles, etc)
 3. Earn tokens
 
 ### Together, we'll turn waste into wealth, one token at a time. Don't miss out on this game-changing opportunity! Embrace blockchain and eco-conscious living.
