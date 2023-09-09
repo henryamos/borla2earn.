@@ -1,0 +1,122 @@
+.slider {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+ 
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0; 
+    transform: translateX(-50%);
+    transition: all 0.8s ease;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .slide img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  .slide img {
+     width: 100%; 
+    height: 100%;
+  }
+  
+  .current {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .content {
+    position: absolute;
+    top: 20rem;
+    left: 5rem;
+    opacity: 0;
+    width: 40%;
+    color: #fff;
+    padding: 3rem;
+    background: rgba(0, 0, 0, 0.8);
+    animation: slide-up 1s ease 0.5s;
+      animation-delay: 1s; 
+    animation-fill-mode: forwards;
+    visibility: hidden;
+  }
+  
+  @keyframes slide-up {
+    0% {
+      visibility: visible;
+      top: 8rem; 
+     
+    }
+    100% {
+      visibility: visible;
+      top: 8rem; 
+   
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .content {
+      width: 80%;
+    }
+  }
+  
+  .content > * {
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  .current .content {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 10s ease;
+  }
+  
+  .arrow {
+    cursor: pointer;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 999;
+    background-color: rgba(26, 131, 26, 0.886);
+    color: #fff;
+  }
+  .arrow:hover {
+    background-color: rgba(5, 154, 5, 0.998);
+    color: #fff;
+  }
+  
+  .next {
+    top: 35%;
+    right: 1.5rem;
+    
+  }
+  .prev {
+    top: 35%;
+    left: 1.5rem;
+    
+  }
+  
+  hr {
+    height: 2px;
+    background: white;
+    width: 50%;
+  }
+  .btn{
+    background-color: green;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 0.6rem;
+    cursor: pointer;
+    border-radius: 0.2rem;
+  }
+  
